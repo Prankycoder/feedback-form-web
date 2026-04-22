@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="light">
 <title>Feedback</title>
 <style>
   :root {
-    --bg:           #0A0A0A;
-    --panel:        #141414;
-    --panel-edge:   #1F1F1F;
-    --input-bg:     #0F0F0F;
-    --input-edge:   #262626;
+    --bg:           #FAFAFA;
+    --panel:        #FFFFFF;
+    --panel-edge:   #E5E5E5;
+    --input-bg:     #FFFFFF;
+    --input-edge:   #D4D4D4;
 
-    --text:         #E8E8E8;
-    --text-muted:   #8A8A8A;
-    --text-faint:   #5A5A5A;
+    --text:         #1A1A1A;
+    --text-muted:   #6B6B6B;
+    --text-faint:   #9A9A9A;
 
-    --accent:       #5BD18C;
-    --accent-fg:    #0A0A0A;
-    --bad:          #E5604D;
+    --accent:       #4DA3FF;
+    --accent-fg:    #FFFFFF;
+    --bad:          #C44133;
 
     --radius:       12px;
     --radius-sm:    8px;
@@ -126,7 +126,7 @@
   .error {
     margin-top: 12px;
     padding: 10px 12px;
-    background: rgba(229, 96, 77, 0.08);
+    background: rgba(196, 65, 51, 0.06);
     border-left: 2px solid var(--bad);
     color: var(--bad);
     border-radius: 4px;
@@ -162,7 +162,7 @@
     border: 1px solid var(--input-edge);
     min-height: 44px;
   }
-  .btn-secondary:hover { background: rgba(255, 255, 255, 0.03); }
+  .btn-secondary:hover { background: rgba(0, 0, 0, 0.04); }
 
   /* Success panel */
   .success {
@@ -192,7 +192,7 @@
 
     <section id="form-panel">
       <h1 id="headline">What do you think?</h1>
-      <p class="sub">What worked for you on the landing page? What didn't? Say it like you'd say it to a friend, the specifics really help.</p>
+      <p class="sub">What worked for you on this app? What didn't? Say it like you'd say it to a friend, the specifics really help.</p>
 
       <form id="form" novalidate>
         <label for="feedback" class="visually-hidden">Your feedback</label>
